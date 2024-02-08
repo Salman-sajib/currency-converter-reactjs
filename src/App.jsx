@@ -24,12 +24,7 @@ function App() {
   };
 
   return (
-    <div
-      className='w-full min-h-dvh flex flex-wrap justify-center items-center bg-cover bg-no-repeat'
-      style={{
-        backgroundImage: `url("./src/Images/bg-image.jpg")`,
-      }}
-    >
+    <div className='w-full min-h-dvh flex flex-wrap justify-center items-center bg-gradient-to-tr from-indigo-700 to-violet-900'>
       <div className='w-full'>
         <div className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
           <form
@@ -70,7 +65,7 @@ function App() {
             </div>
             <button
               type='submit'
-              className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'
+              className='w-full bg-violet-700 text-white px-4 py-3 rounded-lg'
             >
               Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
